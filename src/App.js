@@ -98,8 +98,19 @@ function App() {
           <Route exact path="/board" component={Board_main} />
           <Route exact path="/directed" component={Directed_main} />
           <Route exact path="/notice" component={Notice_main} />
+<<<<<<< HEAD
           <Route exact path="/rank" component={Rank_main} />
           <Route exact path="/join" component={Join_main} />
+=======
+
+          <Route exact path="/ranking" component={Rank_main} />
+
+      
+          <Route exact path="/join" component={Join_main}/>
+
+
+
+>>>>>>> fe20d80c34700d6230dc237c5363d8d574505090
 
           {/* <ReactModal style={modal_style} isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)}>
             <Link to="/">
